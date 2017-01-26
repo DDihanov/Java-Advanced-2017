@@ -1,88 +1,78 @@
-
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
-import java.util.StringTokenizer;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class HandsOfCards {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = "";
+        LinkedHashMap<String, ArrayList<String>> map = new LinkedHashMap<>();
 
-    private static final HashMap<String, Integer> POWERS = new HashMap<>();
+        while (!(input = sc.nextLine()).equals("JOKER")) {
 
-    private static LinkedHashMap<String, HashSet<String>> PLAYER_DECKS = new LinkedHashMap<>();
-
-    static {
-        POWERS.put("2", 2);
-        POWERS.put("3", 3);
-        POWERS.put("4", 4);
-        POWERS.put("5", 5);
-        POWERS.put("6", 6);
-        POWERS.put("7", 7);
-        POWERS.put("8", 8);
-        POWERS.put("9", 9);
-        POWERS.put("10", 10);
-        POWERS.put("J", 11);
-        POWERS.put("Q", 12);
-        POWERS.put("K", 13);
-        POWERS.put("A", 14);
-
-        POWERS.put("S", 4);
-        POWERS.put("H", 3);
-        POWERS.put("D", 2);
-        POWERS.put("C", 1);
-    }
-
-    public static void main(String[] args) throws IOException {
-        String input;
-
-        while (true) {
-            input = CONSOLE.readLine();
-
-            if (input.equals("JOKER"))
-                break;
-
-            StringTokenizer playerData = new StringTokenizer(input, ":");
-
-            String name = playerData.nextToken();
-            StringTokenizer playerCardData = new StringTokenizer(playerData.nextToken().trim(), ", ");
-
-            if (!PLAYER_DECKS.containsKey(name))
-                PLAYER_DECKS.put(name, new HashSet<>());
-
-            while (playerCardData.hasMoreTokens()) {
-                String card = playerCardData.nextToken();
-
-                PLAYER_DECKS.get(name).add(card);
+            String[] split = input.split(": ");
+            Matcher matcher = Pattern.compile("^([^:]+)").matcher(split[0]);
+            if (matcher.find()) {
+                String name = matcher.group(1);
+                String[] cardInfo = split[1].split(", ");
+                if (!map.containsKey(name)) {
+                    map.put(name, new ArrayList<>());
+                }
+                for (int i = 0; i < cardInfo.length; i++) {
+                    ArrayList<String> cards = map.get(name);
+                    if (!cards.contains(cardInfo[i])) {
+                        map.get(name).add(cardInfo[i]);
+                    }
+                }
             }
         }
+        map.entrySet().stream().forEach(player -> {
+            ArrayList<String> cards = player.getValue();
+            long total = getTotalValue(cards);
+            System.out.format("%s: %d\n", player.getKey(), total);
+        });
 
-        StringBuilder output = new StringBuilder("");
-        for (String name : PLAYER_DECKS.keySet()) {
-            Integer totalScore = 0;
-            for (String card : PLAYER_DECKS.get(name)) {
-                Integer power = getCardPower(card);
-                totalScore += power;
-            }
-            String outputLine = String.format("%s: %s", name, totalScore);
-
-            output.append(outputLine).append("\n");
-        }
-
-        System.out.println(output);
     }
 
-    private static Integer getCardPower(String card) {
-        StringBuilder cardData = new StringBuilder(card);
-
-        String type = "" + cardData.charAt(card.length() - 1);
-        Integer mult = POWERS.get(type);
-
-        cardData.deleteCharAt(card.length() - 1);
-
-        return POWERS.get(cardData.toString()) * mult;
+    private static long getTotalValue(ArrayList<String> cards) {
+        long total = 0;
+        for (int i = 0; i < cards.size(); i++) {
+            String current = cards.get(i);
+            String face = current.substring(0, current.length() - 1);
+            Character suit = current.charAt(current.length() - 1);
+            long faceValue = 0;
+            switch (face) {
+                case "J":
+                    faceValue = 11;
+                    break;
+                case "Q":
+                    faceValue = 12;
+                    break;
+                case "K":
+                    faceValue = 13;
+                    break;
+                case "A":
+                    faceValue = 14;
+                    break;
+                default:
+                    faceValue = Long.parseLong(face);
+                    break;
+            }
+            switch (suit) {
+                case 'S':
+                    faceValue *= 4;
+                    break;
+                case 'H':
+                    faceValue *= 3;
+                    break;
+                case 'D':
+                    faceValue *= 2;
+                    break;
+            }
+            total += faceValue;
+        }
+        return total;
     }
 }

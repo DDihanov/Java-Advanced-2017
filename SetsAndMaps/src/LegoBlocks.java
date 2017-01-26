@@ -1,72 +1,67 @@
-import java.util.stream.Collectors;
-import java.util.*;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.TreeMap;
 
-/**
- * Created by Austin on 25/01/2017.
- */
 public class LegoBlocks {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
+        int n = Integer.parseInt(sc.nextLine());
+        ArrayList<ArrayList<String>> arr1 = new ArrayList<>();
+        ArrayList<ArrayList<String>> arr2 = new ArrayList<>();
+        addN(n, arr1, sc);
+        addN(n, arr2, sc);
+        TreeMap<Integer, ArrayList<Integer>> map = new TreeMap<>();
+        for (int i = 0; i < n; i++) {
+            ArrayList<Integer> result = new ArrayList<>();
+            for (int j = 0; j < arr1.get(i).size(); j++) {
+                result.add(Integer.parseInt(arr1.get(i).get(j)));
+            }
+            for (int j = arr2.get(i).size()-1; j >= 0; j--) {
+                result.add(Integer.parseInt(arr2.get(i).get(j)));
+            }
 
-        int rows = Integer.parseInt(sc.nextLine());
-
-        List<List<Integer>> first = new ArrayList<>();
-
-        boolean matches = false;
-
-        for (int i = 0; i < rows; i++) {
-            List<Integer> temp = Arrays.stream(sc.nextLine().trim().split("\\s+"))
-                    .map(Integer::parseInt)
-                    .collect(Collectors.toList());
-
-            first.add(temp);
+            map.put(i, result);
         }
 
-        for (int i = 0; i < rows; i++) {
-            List<Integer> temp = Arrays.stream(sc.nextLine().trim().split("\\s+"))
-                    .map(Integer::parseInt)
-                    .collect(Collectors.toList());
-
-            Collections.reverse(temp);
-
-            first.get(i).addAll(temp);
-
+        boolean isMatch = true;
+        ArrayList<Integer> sizes = new ArrayList<>();
+        for (Integer row : map.keySet()) {
+            sizes.add(map.get(row).size());
         }
-
-
-        for (int i = 1; i < first.size(); i++) {
-            if(first.get(i).size() == first.get(i-1).size()){
-                matches = true;
-            } else {
-                matches = false;
+        for (int i = 1; i < sizes.size(); i++) {
+            int size = sizes.get(i);
+            int previoussize = sizes.get(i - 1);
+            if (size != previoussize) {
+                isMatch = false;
+                break;
             }
         }
-        
-        if(matches){
-            for (List<Integer> list :
-                    first) {
-                System.out.println(list);
+
+        if (isMatch) {
+            for (Integer row : map.keySet()) {
+                System.out.println(map.get(row));
             }
-        } else{
-            int count = 0;
-            for (List<Integer> list :
-                    first) {
-                count += list.size();
+        } else {
+            int cells = 0;
+            for (Integer row : map.keySet()) {
+                cells += map.get(row).size();
             }
-            System.out.println("The total number of cells is: " + count);
+            System.out.printf("The total number of cells is: %d", cells);
         }
+
     }
 
-//    public static int[] reverse(int[] data) {
-//
-//        int[] tempArr = data;
-//        for (int left = 0, right = tempArr.length - 1; left < right; left++, right--) {
-//            // swap the values at the left and right indices
-//            int temp = tempArr[left];
-//            tempArr[left] = tempArr[right];
-//            tempArr[right] = temp;
-//        }
-//        return tempArr;
-//    }
+    public static void addN(int n, ArrayList<ArrayList<String>> list, Scanner s) {
+        while (n > 0) {
+            String[] arr = s.nextLine().trim().split("\\s+");
+            ArrayList<String> c = new ArrayList<>();
+            for (int i = 0; i < arr.length; i++) {
+                c.add(arr[i]);
+            }
+            list.add(c);
+            n--;
+        }
+    }
 }

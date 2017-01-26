@@ -1,56 +1,41 @@
+import java.util.*;
 
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
-import java.util.TreeSet;
-
+/**
+ * Created by kaloy on 3/18/2016.
+ */
 public class LogsAggregator {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int lines = Integer.parseInt(scan.nextLine());
+        Map<String, HashMap<String,Integer>> logs = new TreeMap<>();
+        while(lines>0){
+            String [] line = scan.nextLine().split(" ");
+            String ip = line[0];
+            String name = line[1];
+            int duration = Integer.parseInt(line[2]);
 
-    private static TreeMap<String, TreeSet<String>> USERS_IPS = new TreeMap<>();
-
-    private static HashMap<String, Integer> USERS_DURATIONS = new HashMap<>();
-
-    public static void main(String[] args) throws IOException {
-        String input = CONSOLE.readLine();
-
-        int logsCount = Integer.valueOf(input);
-        for (int i = 0; i < logsCount; i++) {
-            input = CONSOLE.readLine();
-
-            StringTokenizer logData = new StringTokenizer(input);
-            String ip = logData.nextToken();
-            String user = logData.nextToken();
-            Integer duration = Integer.valueOf(logData.nextToken());
-
-            if (!USERS_IPS.containsKey(user))
-                USERS_IPS.put(user, new TreeSet<>());
-
-            if (!USERS_DURATIONS.containsKey(user))
-                USERS_DURATIONS.put(user, 0);
-
-            USERS_IPS.get(user).add(ip);
-
-            Integer totalDuration = USERS_DURATIONS.get(user) + duration;
-            USERS_DURATIONS.put(user, totalDuration);
+            if(!logs.containsKey(name)){
+                logs.put(name, new HashMap<>());
+            }
+            if(!logs.get(name).containsKey(ip)){
+                logs.get(name).put(ip,duration);
+            }else{
+                logs.get(name).put(ip,logs.get(name).get(ip)+duration);
+            }
+            lines--;
         }
+        Set<String> names = logs.keySet();
 
-        StringBuilder output = new StringBuilder("");
-        for (String user : USERS_IPS.keySet()) {
-            output.append(String.format("%s: %s [", user, USERS_DURATIONS.get(user)));
-
-            for (String ip : USERS_IPS.get(user))
-                output.append(ip).append(", ");
-
-            output.deleteCharAt(output.length() - 1);
-            output.deleteCharAt(output.length() - 1);
-            output.append("]").append("\n");
+        for (String name : names) {
+            System.out.print(name + ": ");
+            TreeMap<String,Integer> uniqueLogs = new TreeMap<>(logs.get(name));
+            Set<String> ips = uniqueLogs.keySet();
+            int totalduration =0;
+            for(String ip : ips){
+                totalduration += uniqueLogs.get(ip);
+            }
+            System.out.print(totalduration + " ");
+            System.out.println(ips);
         }
-
-        System.out.println(output);
     }
 }

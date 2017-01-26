@@ -1,61 +1,43 @@
+import java.util.*;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.LinkedHashMap;
-import java.util.StringTokenizer;
-import java.util.TreeMap;
-
+/**
+ * Created by kaloy on 3/19/2016.
+ */
 public class UserLogs {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String n = scan.nextLine();
+        TreeMap<String, LinkedHashMap<String, Integer>> logs = new TreeMap<>();
 
-    private static TreeMap<String, LinkedHashMap<String, Integer>> USER_LOGS = new TreeMap<>();
-
-    public static void main(String[] args) throws IOException {
-        String input;
-
-        while (true) {
-            input = CONSOLE.readLine();
-
-            if (input.equals("end"))
-                break;
-
-            StringTokenizer messageData = new StringTokenizer(input);
-
-            String[] readData = new String[3];
-            for (int i = 0; i < readData.length; i++) {
-                StringTokenizer dataTokens = new StringTokenizer(messageData.nextToken(), "=");
-                dataTokens.nextToken();
-
-                readData[i] = dataTokens.nextToken();
+        while(!n.equals("end")){
+            String[] inputSplit = n.split(" ");
+            String ip = inputSplit[0].substring(3,inputSplit[0].length());
+            String user = inputSplit[2].substring(5,inputSplit[2].length());
+            int count =0;
+            if(!logs.containsKey(user)){
+                logs.put(user, new LinkedHashMap<>());
+            }
+            if(logs.get(user).containsKey(ip)){
+                logs.get(user).put(ip,logs.get(user).get(ip) + 1);
+            }else{
+                logs.get(user).put(ip,++count);
             }
 
-            String ip = readData[0];
-            String message = readData[1];
-            String user = readData[2];
-
-            if (!USER_LOGS.containsKey(user))
-                USER_LOGS.put(user, new LinkedHashMap<>());
-
-            if (!USER_LOGS.get(user).containsKey(ip))
-                USER_LOGS.get(user).put(ip, 0);
-
-            Integer count = USER_LOGS.get(user).get(ip) + 1;
-            USER_LOGS.get(user).put(ip, count);
+            n = scan.nextLine();
         }
+        Set<String> users = logs.keySet();
 
-        StringBuilder output = new StringBuilder("");
-        for (String name : USER_LOGS.keySet()) {
-            output.append(name).append(":").append("\n");
-            for (String ip : USER_LOGS.get(name).keySet()) {
-                String ipOutput = String.format("%s => %s,", ip, USER_LOGS.get(name).get(ip));
-                output.append(ipOutput).append(" ");
+        for(String user : users){
+            System.out.println(user + ": " );
+            LinkedHashMap<String, Integer> ips = logs.get(user);
+            Set<String> ipSet = ips.keySet();
+            int count =0;
+            for(String ip : ipSet){
+                String dotorComma = count==ipSet.size()-1 ? "." : ", ";
+                System.out.print(ip  + " => " + ips.get(ip) + dotorComma);
+                count++;
             }
-            output.deleteCharAt(output.length() - 1);
-            output.deleteCharAt(output.length() - 1);
-            output.append(".").append("\n");
+            System.out.println();
         }
-
-        System.out.println(output);
     }
 }

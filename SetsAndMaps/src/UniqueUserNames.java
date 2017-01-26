@@ -1,24 +1,17 @@
-
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.LinkedHashSet;
+import java.util.Scanner;
 
-public class UniqueUserNames {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
-    private static LinkedHashSet<String> USERNAMES = new LinkedHashSet<>();
-
-    public static void main(String[] args) throws IOException {
-        int usersCount = Integer.valueOf(CONSOLE.readLine());
-
-        for (int i = 0; i < usersCount; i++)
-            USERNAMES.add(CONSOLE.readLine());
-
-        StringBuilder output = new StringBuilder("");
-        for (String username : USERNAMES)
-            output.append(username).append("\n");
-
-        System.out.println(output);
+public class UniqueUsernames {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        LinkedHashSet<String> set = new LinkedHashSet<>();
+        long n = sc.nextLong();
+        sc.nextLine();
+        for(int i = 0 ; i<n ; i ++){
+            set.add(sc.nextLine());
+        }
+        for (String user : set) {
+            System.out.println(user);
+        }
     }
 }

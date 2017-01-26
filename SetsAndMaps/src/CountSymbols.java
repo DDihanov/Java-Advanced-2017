@@ -1,33 +1,20 @@
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 import java.util.TreeMap;
 
 public class CountSymbols {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
-
-    private static TreeMap<Character, Integer> SYMBOLS_COUNTS = new TreeMap<>();
-
-    public static void main(String[] args) throws IOException {
-        char[] symbols = CONSOLE.readLine().toCharArray();
-
-        for (char symbol : symbols) {
-            if (!SYMBOLS_COUNTS.containsKey(symbol)) {
-                SYMBOLS_COUNTS.put(symbol, 1);
-                continue;
+    public static void main(String[] args) {
+        Scanner sc  = new Scanner(System.in);
+        String input = sc.nextLine();
+        TreeMap<Character,Integer> map = new TreeMap<>();
+        for(int i = 0 ;i<input.length();i++){
+            char current = input.charAt(i);
+            if(!map.containsKey(current)){
+                map.put(current,0);
             }
-
-            Integer currentSymbolCount = SYMBOLS_COUNTS.get(symbol) + 1;
-            SYMBOLS_COUNTS.put(symbol, currentSymbolCount);
+            map.put(current,map.get(current)+1);
         }
-
-        StringBuilder output = new StringBuilder("");
-        for (Character symbol : SYMBOLS_COUNTS.keySet()) {
-            String outputLine = String.format("%s: %s time/s", symbol, SYMBOLS_COUNTS.get(symbol));
-            output.append(outputLine).append("\n");
-        }
-
-        System.out.println(output);
+        map.entrySet().stream().forEach(ch -> {
+            System.out.format("%s: %d time/s\n",ch.getKey(),ch.getValue());
+        });
     }
 }

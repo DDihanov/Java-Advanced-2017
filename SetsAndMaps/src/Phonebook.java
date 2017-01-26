@@ -1,44 +1,26 @@
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.HashMap;
-import java.util.StringTokenizer;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Phonebook {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
-
-    private static HashMap<String, String> PHONE_BOOK = new HashMap<>();
-
-    public static void main(String[] args) throws IOException {
-        String input = CONSOLE.readLine();
-
-        while (!input.equals("search")) {
-            StringTokenizer entryData = new StringTokenizer(input, "-");
-
-            String name = entryData.nextToken();
-            String number = entryData.nextToken();
-
-            PHONE_BOOK.put(name, number);
-
-            input = CONSOLE.readLine();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = "";
+        Pattern pat = Pattern.compile("(.+)-(.+)");
+        HashMap<String,String > map = new HashMap<>();
+        while(!(input = sc.nextLine()).equals("search")){
+            Matcher matcher = pat.matcher(input);
+            if(matcher.find()) {
+                map.put(matcher.group(1), matcher.group(2));
+            }
         }
-
-        StringBuilder output = new StringBuilder("");
-        while (true) {
-            input = CONSOLE.readLine();
-
-            if (input.equals("stop"))
-                break;
-
-            String outputLine = String.format("Contact %s does not exist.", input);
-
-            if (PHONE_BOOK.containsKey(input))
-                outputLine = String.format("%s -> %s", input, PHONE_BOOK.get(input));
-
-            output.append(outputLine).append("\n");
+        while(!(input= sc.nextLine()).equals("stop")){
+            if(map.containsKey(input)){
+                System.out.format("%s -> %s\n",input,map.get(input));
+            }else{
+                System.out.format("Contact %s does not exist.\n",input);
+            }
         }
-
-        System.out.println(output);
     }
 }

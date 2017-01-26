@@ -1,76 +1,35 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.LinkedHashMap;
+import java.util.Scanner;
 
 public class PopulationCounter {
-    private static BufferedReader CONSOLE = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = "";
+        LinkedHashMap<String , LinkedHashMap<String, Long>> countriesAndCities = new LinkedHashMap<>();
+        LinkedHashMap<String, Long> countriesOnly = new LinkedHashMap<>();
+        while(!(input = sc.nextLine()).equals("report")){
+            String [] data = input.split("\\|");
+            String city = data[0];
+            String country = data[1];
+            Long population = Long.parseLong(data[2]);
 
-    private static Map<String, Map<String, Integer>> COUNTRIES_CITIES = new HashMap<>();
-
-    private static Map<String, Long> COUNTRIES = new LinkedHashMap<>();
-
-    public static void main(String[] args) throws IOException {
-        String input;
-
-        while (true) {
-            input = CONSOLE.readLine();
-
-            if (input.equals("report"))
-                break;
-
-            StringTokenizer cityData = new StringTokenizer(input, "|");
-
-            String city = cityData.nextToken();
-            String country = cityData.nextToken();
-            Integer population = Integer.valueOf(cityData.nextToken());
-
-            if (!COUNTRIES_CITIES.containsKey(country))
-                COUNTRIES_CITIES.put(country, new LinkedHashMap<>());
-
-            if (!COUNTRIES.containsKey(country))
-                COUNTRIES.put(country, 0L);
-
-            Long countryPopulation = COUNTRIES.get(country) + population;
-            COUNTRIES.put(country, countryPopulation);
-
-            COUNTRIES_CITIES.get(country).put(city, population);
-        }
-
-        COUNTRIES = sortByValue(COUNTRIES);
-
-        for (String country : COUNTRIES_CITIES.keySet()) {
-            Map<String, Integer> sortedCities = sortByValue(COUNTRIES_CITIES.get(country));
-            COUNTRIES_CITIES.put(country, sortedCities);
-        }
-
-        StringBuilder output = new StringBuilder("");
-        for (String country : COUNTRIES.keySet()) {
-            output.append(
-                    String.format("%s (total population: %s)", country, COUNTRIES.get(country)));
-            output.append("\n");
-
-            for (String city : COUNTRIES_CITIES.get(country).keySet()) {
-                output.append(String.format("=>%s: %s", city, COUNTRIES_CITIES.get(country).get(city)));
-                output.append("\n");
+            if(!countriesAndCities.containsKey(country)){
+                countriesAndCities.put(country,new LinkedHashMap<>());
+                countriesOnly.put(country, 0L);
+            }
+            countriesOnly.put(country,countriesOnly.get(country)+population);
+            if(!countriesAndCities.get(country).containsKey(city)){
+                countriesAndCities.get(country).put(city,population);
             }
         }
-
-        System.out.println(output);
-    }
-
-    // I did NOT write this method myself, so don't ask me how it works
-    // *sigh* #wtfjava
-    private static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
-        return map.entrySet()
-                .stream()
-                .sorted(Map.Entry.comparingByValue(Collections.reverseOrder()))
-                .collect(Collectors.toMap(
-                        Map.Entry::getKey,
-                        Map.Entry::getValue,
-                        (e1, e2) -> e1,
-                        LinkedHashMap::new
-                ));
+        countriesAndCities.entrySet().stream()
+                .sorted((c1,c2)-> countriesOnly.get(c2.getKey()).compareTo(countriesOnly.get(c1.getKey())))
+                .forEach(country ->{
+                    System.out.format("%s (total population: %d)\n",country.getKey(),countriesOnly.get(country.getKey()));
+                    country.getValue().entrySet()
+                            .stream().sorted((t1,t2)-> t2.getValue().compareTo(t1.getValue())).forEach(city ->{
+                        System.out.format("=>%s: %d\n", city.getKey(),city.getValue());
+                    });
+                });
     }
 }
