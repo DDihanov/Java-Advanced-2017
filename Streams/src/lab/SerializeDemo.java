@@ -33,8 +33,6 @@ public class SerializeDemo {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
-
     }
 
 
