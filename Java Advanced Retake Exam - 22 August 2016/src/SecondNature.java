@@ -30,10 +30,15 @@ public class SecondNature {
                 flowers.pollFirst();
                 buckets.pollLast();
             } else if(flower > bucket){
-                flowers.pollFirst();
-                long temp = flowers.pollFirst();
-                flowers.push(temp + Math.abs(flower - bucket));
-                buckets.pollLast();
+                if(flowers.size() == 1){
+                    if(flowers.peekFirst() - bucket <= 0){
+                        flowers.poll();
+                        buckets.add(buckets.pollLast() - flower);
+                    } else{
+                        flowers.push(flowers.pollFirst() - bucket);
+                        buckets.pollLast();
+                    }
+                }
             } else if(bucket > flower){
                 flowers.pollFirst();
                 if(buckets.size() == 1){
@@ -44,7 +49,7 @@ public class SecondNature {
                     buckets.add(buckets.poll() - flower);
                 } else{
                     long temp = buckets.pollLast();
-                    buckets.add(buckets.pollLast() + Math.abs(flower - bucket));
+                    buckets.add(buckets.pollLast() + (temp - flower));
                 }
             }
         }
