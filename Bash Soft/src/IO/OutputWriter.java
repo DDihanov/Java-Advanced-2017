@@ -1,5 +1,5 @@
-import java.io.File;
-import java.util.LinkedList;
+package IO;
+
 import java.util.List;
 
 public class OutputWriter {
