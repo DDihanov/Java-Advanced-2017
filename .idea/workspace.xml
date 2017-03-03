@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1494b381-9d6a-4b30-8b80-6a1ed0c37fa2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bash Soft.7z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Bash Soft/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Basics/src/Inheritance/P03_Mankind.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Basics/src/Inheritance/P05_OnlineRadio.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Basics/src/Inheritance/P06_Animals.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/StacksAndQueues.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/BasicQueueOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/BasicStackOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/StreamAPI.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_011LittleJohn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_02UPPERSTRING.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_04FIRSTNAME.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_05MinEvenNumber.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_08MapDistricts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/src/_011LittleJohn.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/src/_02UPPERSTRING.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/src/_04FIRSTNAME.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/src/_05MinEvenNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/StreamAPI/src/_08MapDistricts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/.idea/description.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/.idea/project-template.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/Streams.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/All_Capitals.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/CopyPicture.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/CountCharTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/Course.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/CreateZipArchive.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/GetFolderSize.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/LineNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/MergeTwoFiles.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/SerializeArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/SerializeCustomObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/SumBytes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/SumLines.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/WordCount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/CopyBytes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/Cube.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/DirectoryListing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/EveryThirdLine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/ExtractIntegers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/Listing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/PathListing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/ReadFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/SerializeDemo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/lab/WriteToFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/course.ser" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/files.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/input.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/input1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/input2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/list.ser" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Streams/src/resources/words.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataNew.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Basics/out/production/Java_OOP_Basics/Inheritance/P06_Animals.zip" afterPath="$PROJECT_DIR$/Java_OOP_Basics/out/production/Java_OOP_Basics/Inheritance/P06_Animals.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Basics/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_OOP_Basics/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/.idea/Arrays.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/.idea/Arrays.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/CollectCoins.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/CollectCoins.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/DiagonalDiff.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/DiagonalDiff.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/FillMatrix.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/FillMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/GroupNumbers.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/GroupNumbers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/MatrixOfPals.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/MatrixOfPals.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/MatrixShuffling.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/MatrixShuffling.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/MaxSubmatrixSum.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/MaxSubmatrixSum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/MaximalSum.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/MaximalSum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/PascalTriangle.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/PascalTriangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/ReadSortPrintArray.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/ReadSortPrintArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/SeqInMatrix.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/SeqInMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/SquaresInMatrix.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/SquaresInMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/SumMatrixElements.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/SumMatrixElements.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Arrays/src/TerroristsWin.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Arrays/src/TerroristsWin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/Bash Soft.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/Bash Soft.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/IO/CommandInterpreter.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/IO/CommandInterpreter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/IO/IOManager.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/IO/IOManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/IO/InputReader.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/IO/InputReader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/IO/OutputWriter.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/IO/OutputWriter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/Judge/Tester.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/Judge/Tester.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/Main.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/Main.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/Repository/RepositoryFilters.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/Repository/RepositoryFilters.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/Repository/RepositorySorters.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/Repository/RepositorySorters.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/Repository/StudentsRepository.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/Repository/StudentsRepository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/StaticData/ExceptionMessages.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/StaticData/ExceptionMessages.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/out/production/Bash Soft/StaticData/SessionData.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/out/production/Bash Soft/StaticData/SessionData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/IO/CommandInterpreter.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/IO/CommandInterpreter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/IO/IOManager.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/IO/IOManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/IO/InputReader.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/IO/InputReader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/IO/OutputWriter.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/IO/OutputWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/Judge/Tester.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/Judge/Tester.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/Main.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/Repository/RepositoryFilters.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/Repository/RepositoryFilters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/Repository/RepositorySorters.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/Repository/RepositorySorters.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/Repository/StudentsRepository.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/Repository/StudentsRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/StaticData/ExceptionMessages.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/StaticData/ExceptionMessages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Bash Soft/src/StaticData/SessionData.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/src/StaticData/SessionData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/BashSoft_OOP.iml" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/BashSoft_OOP.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/Main.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/Main.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/io/CommandInterpreter.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/io/CommandInterpreter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/io/IOManager.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/io/IOManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/io/InputReader.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/io/InputReader.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/io/OutputWriter.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/io/OutputWriter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/judge/Tester.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/judge/Tester.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/models/Course.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/models/Course.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/models/Student.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/models/Student.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/network/DownloadManager.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/network/DownloadManager.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/repository/RepositoryFilter.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/repository/RepositoryFilter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/repository/RepositorySorter.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/repository/RepositorySorter.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/repository/StudentsRepository.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/repository/StudentsRepository.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/staticData/ExceptionMessages.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/staticData/ExceptionMessages.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/out/production/BashSoft_OOP/staticData/SessionData.class" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/staticData/SessionData.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/Main.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/io/CommandInterpreter.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/io/CommandInterpreter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/io/IOManager.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/io/IOManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/io/InputReader.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/io/InputReader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/io/OutputWriter.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/io/OutputWriter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/judge/Tester.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/judge/Tester.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/models/Course.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/models/Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/models/Student.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/models/Student.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/network/DownloadManager.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/network/DownloadManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/repository/RepositoryFilter.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/repository/RepositoryFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/repository/RepositorySorter.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/repository/RepositorySorter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/repository/StudentsRepository.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/repository/StudentsRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/staticData/ExceptionMessages.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/staticData/ExceptionMessages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/BashSoft_OOP/src/staticData/SessionData.java" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/src/staticData/SessionData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/.idea/vcs.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/ExamPrepOne.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/ExamPrepOne.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/out/production/ExamPrepOne/BunkerBuster.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/out/production/ExamPrepOne/BunkerBuster.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/out/production/ExamPrepOne/P03_TextTransformer.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/out/production/ExamPrepOne/P03_TextTransformer.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/out/production/ExamPrepOne/RageQuit.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/out/production/ExamPrepOne/RageQuit.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/src/ArraySlider.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/src/ArraySlider.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/src/BunkerBuster.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/src/BunkerBuster.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/src/P03_TextTransformer.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/src/P03_TextTransformer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ExamPrepOne/src/RageQuit.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/ExamPrepOne/src/RageQuit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/.idea/vcs.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/Java Advanced Retake Exam - 22 August 2016.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/Java Advanced Retake Exam - 22 August 2016.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/out/production/Java Advanced Retake Exam - 22 August 2016/NatureProphet.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/out/production/Java Advanced Retake Exam - 22 August 2016/NatureProphet.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/out/production/Java Advanced Retake Exam - 22 August 2016/SecondNature.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/out/production/Java Advanced Retake Exam - 22 August 2016/SecondNature.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/src/NatureProphet.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/src/NatureProphet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Java Advanced Retake Exam - 22 August 2016/src/SecondNature.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/src/SecondNature.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/.idea/description.html" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/.idea/description.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/.idea/project-template.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/.idea/project-template.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/JavaExam2017FEbb.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/JavaExam2017FEbb.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P1Shockwave.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P1Shockwave.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P2Earthquake.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P2Earthquake.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P2Earthquake_withArrayList.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P2Earthquake_withArrayList.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P3Ascent.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P3Ascent.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P4Highscore.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/out/production/JavaExam2017FEbb/P4Highscore.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/src/P1Shockwave.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/src/P1Shockwave.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/src/P2Earthquake.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/src/P2Earthquake.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/src/P2Earthquake_withArrayList.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/src/P2Earthquake_withArrayList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/src/P3Ascent.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/src/P3Ascent.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/JavaExam2017FEbb/src/P4Highscore.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/JavaExam2017FEbb/src/P4Highscore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/.idea/description.html" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/.idea/description.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/.idea/project-template.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/.idea/project-template.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/Regex.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/Regex.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/out/production/Regex/ATagIncomplete.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/out/production/Regex/ATagIncomplete.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/out/production/Regex/MatchPhoneNumber.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/out/production/Regex/MatchPhoneNumber.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/out/production/Regex/PhoneNumbers.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/out/production/Regex/PhoneNumbers.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/out/production/Regex/QueryMess.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/out/production/Regex/QueryMess.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/src/ATagIncomplete.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/src/ATagIncomplete.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/src/MatchPhoneNumber.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/src/MatchPhoneNumber.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/src/PhoneNumbers.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/src/PhoneNumbers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Regex/src/QueryMess.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Regex/src/QueryMess.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/.idea/SetsAndMaps.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/.idea/SetsAndMaps.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/AMinersTask.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/AMinersTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/Bunnies.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/Bunnies.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/CountSymbols.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/CountSymbols.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/Fillmatri.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/Fillmatri.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/FixEmails.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/FixEmails.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/HandsOfCards.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/HandsOfCards.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/LegendaryFarming.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/LegendaryFarming.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/LegoBlocks.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/LegoBlocks.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/LogsAggregator.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/LogsAggregator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/ParkingSystem.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/ParkingSystem.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/PeriodicTable.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/PeriodicTable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/Phonebook.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/Phonebook.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/PopulationCounter.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/PopulationCounter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/RubiksMatrix.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/RubiksMatrix.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/SetsOfElements.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/SetsOfElements.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/TargetPractice.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/TargetPractice.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/UniqueUserNames.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/UniqueUserNames.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SetsAndMaps/src/UserLogs.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/SetsAndMaps/src/UserLogs.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/StacksAndQueues.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/.idea/StacksAndQueues.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/BalancedParanthesis.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/BalancedParanthesis.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/BasicQueueOperations.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/BasicQueueOperations.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/BasicStackOperations.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/BasicStackOperations.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/MaximumElement.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/MaximumElement.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/PoisonousPlants.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/PoisonousPlants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/RecursiveFibonacci.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/RecursiveFibonacci.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/ReverseNumbers.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/ReverseNumbers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/SequenceWithQueue.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/SequenceWithQueue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/SimpleTextEditor.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/SimpleTextEditor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/StackFibonacci.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/StackFibonacci.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StacksAndQueues/src/TruckTour.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StacksAndQueues/src/TruckTour.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_OOP_Basics/BashSoft_OOP/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/vcs.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/StreamAPI.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/StreamAPI.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_011LittleJohn.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/out/production/StreamAPI/_011LittleJohn.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_02UPPERSTRING.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/out/production/StreamAPI/_02UPPERSTRING.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_04FIRSTNAME.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/out/production/StreamAPI/_04FIRSTNAME.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_05MinEvenNumber.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/out/production/StreamAPI/_05MinEvenNumber.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/out/production/StreamAPI/_08MapDistricts.class" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/out/production/StreamAPI/_08MapDistricts.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/src/_011LittleJohn.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/src/_011LittleJohn.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/src/_02UPPERSTRING.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/src/_02UPPERSTRING.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/src/_04FIRSTNAME.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/src/_04FIRSTNAME.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/src/_05MinEvenNumber.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/src/_05MinEvenNumber.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/StreamAPI/src/_08MapDistricts.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/StreamAPI/src/_08MapDistricts.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/.idea/description.html" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/.idea/description.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/.idea/misc.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/.idea/modules.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/.idea/project-template.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/.idea/project-template.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/Streams.iml" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/Streams.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/All_Capitals.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/All_Capitals.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/CopyPicture.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/CopyPicture.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/CountCharTypes.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/CountCharTypes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/Course.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/Course.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/CreateZipArchive.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/CreateZipArchive.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/GetFolderSize.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/GetFolderSize.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/LineNumbers.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/LineNumbers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/MergeTwoFiles.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/MergeTwoFiles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/SerializeArrayList.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/SerializeArrayList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/SerializeCustomObject.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/SerializeCustomObject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/SumBytes.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/SumBytes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/SumLines.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/SumLines.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/WordCount.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/WordCount.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/CopyBytes.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/CopyBytes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/Cube.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/Cube.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/DirectoryListing.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/DirectoryListing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/EveryThirdLine.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/EveryThirdLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/ExtractIntegers.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/ExtractIntegers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/Listing.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/Listing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/PathListing.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/PathListing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/ReadFile.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/ReadFile.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/SerializeDemo.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/SerializeDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/lab/WriteToFile.java" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/lab/WriteToFile.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/course.ser" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/course.ser" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/files.zip" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/files.zip" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/input.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/input.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/input1.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/input1.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/input2.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/input2.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/list.ser" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/list.ser" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/output.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/output.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/pic.png" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/pic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Streams/src/resources/words.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Streams/src/resources/words.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/data.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dataNew.txt" afterPath="$PROJECT_DIR$/Java_Fundamentals/Bash Soft/dataNew.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java-Advanced-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java-Advanced-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Basics" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_Fundamentals" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Bash Soft" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Advanced-2017" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1494b381-9d6a-4b30-8b80-6a1ed0c37fa2" name="Default" comment="" />
+      <created>1488530499669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488530499669</updated>
+      <workItem from="1488530512587" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="108000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
