@@ -1,6 +1,6 @@
-package interfaces_and_abstraction.p05_border_control;
+package interfaces_and_abstraction.p06_birthday_celebrations;
 
-import interfaces_and_abstraction.p05_border_control.interfaces.CitizenInterface;
+import interfaces_and_abstraction.p06_birthday_celebrations.interfaces.Birthdatable;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,28 +12,34 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
 
-        List<CitizenInterface> citizens = new ArrayList<>();
+        List<Birthdatable> citizens = new ArrayList<>();
         Factory factory = new Factory();
 
         String input = "";
 
         while (!"End".equals(input = sc.readLine())) {
             String[] info = input.split("\\s+");
-            citizens.add(factory.createCitizen(info));
+            Birthdatable unit = factory.createUnit(info);
+            if(!(unit == null)){
+                citizens.add(unit);
+            }
         }
 
         input = sc.readLine();
 
-        checkIds(citizens, input);
+        checkBirthdays(citizens, input);
     }
 
-    private static void checkIds(List<CitizenInterface> citizens, String input) {
-        for (CitizenInterface citizen :
+    private static void checkBirthdays(List<Birthdatable> citizens, String input) {
+        StringBuilder sb = new StringBuilder();
+        for (Birthdatable citizen :
                 citizens) {
-            String id = citizen.getId();
-            if(id.endsWith(input)) {
-                System.out.println(id);
+            String birthdate = citizen.getBirthday();
+            if(birthdate.endsWith(input)) {
+                sb.append(birthdate).append(System.lineSeparator());
             }
         }
+
+        System.out.print(sb.toString());
     }
 }

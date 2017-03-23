@@ -1,9 +1,11 @@
 package interfaces_and_abstraction.p07_food_shortage.models;
 
-public class Robot extends BaseCitizen {
+public class Rebel extends BuyerImpl{
+    private String group;
 
-    public Robot(String id, String name) {
-        super(id, name);
+    public Rebel(int age, String name, String group) {
+        super(age, name);
+        this.group = group;
     }
 
 

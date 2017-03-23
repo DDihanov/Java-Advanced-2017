@@ -1,4 +1,9 @@
-package interfaces_and_abstraction.p08_military_elite.models;
+package interfaces_and_abstraction.p08_military_elite.interfaces;
 
-public class IMission {
+public interface IMission {
+    void completeMission();
+
+    String getCodeName();
+
+    String getState();
 }

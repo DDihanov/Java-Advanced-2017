@@ -1,22 +1,15 @@
-package interfaces_and_abstraction.p05_border_control.models;
+package interfaces_and_abstraction.p07_food_shortage.models;
 
-import interfaces_and_abstraction.p05_border_control.interfaces.CitizenInterface;
-
-public class BaseCitizen implements CitizenInterface {
-    private String id;
+public abstract class BaseCitizen{
+    private int age;
     private String name;
 
-    protected BaseCitizen(String id, String name) {
-        this.id = id;
+    protected BaseCitizen(int age, String name) {
+        this.age = age;
         this.name = name;
     }
 
-    public String getName(){
-        return this.name;
-    }
-
-    @Override
-    public String getId() {
-        return this.id;
+    public String getName() {
+        return name;
     }
 }

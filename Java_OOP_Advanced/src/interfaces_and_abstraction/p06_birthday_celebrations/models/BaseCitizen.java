@@ -1,8 +1,8 @@
-package interfaces_and_abstraction.p05_border_control.models;
+package interfaces_and_abstraction.p06_birthday_celebrations.models;
 
-import interfaces_and_abstraction.p05_border_control.interfaces.CitizenInterface;
+import interfaces_and_abstraction.p06_birthday_celebrations.interfaces.Identifiable;
 
-public class BaseCitizen implements CitizenInterface {
+public class BaseCitizen implements Identifiable {
     private String id;
     private String name;
 

@@ -1,18 +1,15 @@
 package repository;
 
-import io.OutputWriter;
 import models.Course;
 import models.Student;
-import staticData.ExceptionMessages;
 import staticData.SessionData;
+import io.OutputWriter;
+import staticData.ExceptionMessages;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -108,7 +105,7 @@ public class StudentsRepository {
             return;
         }
 
-        double mark = this.courses.get(courseName).studentsByName
+        double mark = this.courses.get(courseName).getStudentsByName()
                 .get(studentName).marksByCourseName.get(courseName);
         OutputWriter.printStudent(studentName, mark);
     }
@@ -119,7 +116,7 @@ public class StudentsRepository {
         }
 
         OutputWriter.writeMessageOnNewLine(courseName + ":");
-        for (Map.Entry<String, Student> student : this.courses.get(courseName).studentsByName.entrySet()) {
+        for (Map.Entry<String, Student> student : this.courses.get(courseName).getStudentsByName().entrySet()) {
             this.getStudentMarkInCourse(courseName, student.getKey());
         }
     }
@@ -143,7 +140,7 @@ public class StudentsRepository {
             return false;
         }
 
-        if (! this.courses.get(courseName).studentsByName.containsKey(studentName)) {
+        if (! this.courses.get(courseName).getStudentsByName().containsKey(studentName)) {
             OutputWriter.displayException(ExceptionMessages.NON_EXISTING_STUDENT);
             return false;
         }
@@ -163,7 +160,7 @@ public class StudentsRepository {
         }
 
         LinkedHashMap<String, Double> marks = new LinkedHashMap<>();
-        for (Map.Entry<String, Student> entry : this.courses.get(courseName).studentsByName.entrySet()) {
+        for (Map.Entry<String,Student> entry : this.courses.get(courseName).getStudentsByName().entrySet()) {
             marks.put(entry.getKey(), entry.getValue().marksByCourseName.get(courseName));
         }
 
@@ -176,7 +173,7 @@ public class StudentsRepository {
         }
 
         LinkedHashMap<String, Double> marks = new LinkedHashMap<>();
-        for (Map.Entry<String, Student> entry : this.courses.get(courseName).studentsByName.entrySet()) {
+        for (Map.Entry<String,Student> entry : this.courses.get(courseName).getStudentsByName().entrySet()) {
             marks.put(entry.getKey(), entry.getValue().marksByCourseName.get(courseName));
         }
 

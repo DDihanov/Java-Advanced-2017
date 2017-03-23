@@ -1,10 +1,12 @@
-package interfaces_and_abstraction.p05_border_control.models;
+package interfaces_and_abstraction.p07_food_shortage.models;
 
-public class Citizen extends BaseCitizen {
-    private int age;
+public class Citizen extends BuyerImpl{
+    private String id;
+    private String birthdate;
 
-    public Citizen(String id, String name, int age) {
-        super(id, name);
-        this.age = age;
+    public Citizen(String id, String name, int age, String birthdate) {
+        super(age , name);
+        this.id = id;
+        this.birthdate = birthdate;
     }
 }

@@ -1,0 +1,1 @@
+right side always interface!(ex: Printable doc = new Document();)

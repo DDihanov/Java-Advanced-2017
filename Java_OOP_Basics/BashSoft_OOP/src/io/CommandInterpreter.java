@@ -3,8 +3,8 @@ package io;
 import judge.Tester;
 import network.DownloadManager;
 import repository.StudentsRepository;
-import staticData.ExceptionMessages;
 import staticData.SessionData;
+import staticData.ExceptionMessages;
 
 import java.awt.*;
 import java.io.File;
@@ -138,7 +138,7 @@ public class CommandInterpreter {
             int studentsToTake = Integer.parseInt(takeQuantity);
             this.repository.filterAndTake(courseName, filter, studentsToTake);
         } catch (NumberFormatException nfe) {
-            OutputWriter.displayException(ExceptionMessages.IVALID_TAKE_QUANTITY_PARAMETER);
+            OutputWriter.displayException(ExceptionMessages.INVALID_TAKE_QUANTITY_PARAMETER);
         }
     }
 
@@ -174,7 +174,7 @@ public class CommandInterpreter {
             int studentsToTake = Integer.parseInt(takeQuantity);
             this.repository.orderAndTake(courseName, orderType, studentsToTake);
         } catch (NumberFormatException nfe) {
-            OutputWriter.displayException(ExceptionMessages.IVALID_TAKE_QUANTITY_PARAMETER);
+            OutputWriter.displayException(ExceptionMessages.INVALID_TAKE_QUANTITY_PARAMETER);
         }
     }
 

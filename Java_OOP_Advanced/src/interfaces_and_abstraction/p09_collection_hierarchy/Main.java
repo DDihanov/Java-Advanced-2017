@@ -1,8 +1,9 @@
-package collectionhierarchy;
+package interfaces_and_abstraction.p09_collection_hierarchy;
 
-import collectionhierarchy.models.AddCollection;
-import collectionhierarchy.models.AddRemoveCollection;
-import collectionhierarchy.models.MyList;
+
+import interfaces_and_abstraction.p09_collection_hierarchy.models.AddCollection;
+import interfaces_and_abstraction.p09_collection_hierarchy.models.AddRemoveCollection;
+import interfaces_and_abstraction.p09_collection_hierarchy.models.MyList;
 
 import java.io.BufferedReader;
 import java.io.IOException;

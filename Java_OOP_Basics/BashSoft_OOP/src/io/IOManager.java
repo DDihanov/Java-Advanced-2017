@@ -1,6 +1,7 @@
 package io;
 
-import staticData.ExceptionMessages;
+import exceptions.InvalidFileNameException;
+import exceptions.InvalidPathException;
 import staticData.SessionData;
 
 import java.io.File;
@@ -47,41 +48,58 @@ public class IOManager {
     }
 
     public void createDirectoryInCurrentFolder(String name) {
-        String path = SessionData.currentPath + "\\" + name;
-        File file = new File(path);
-        boolean wasDirMade = file.mkdir();
-        if (!wasDirMade) {
-            OutputWriter.displayException(
-                    ExceptionMessages.FORBIDDEN_SYMBOLS_CONTAINED_IN_NAME);
+
+        try {
+            String path = SessionData.currentPath + "\\" + name;
+            File file = new File(path);
+            boolean wasDirMade = file.mkdir();
+            if (!wasDirMade) {
+                throw new InvalidFileNameException();
+            }
+        } catch (InvalidFileNameException e) {
+            OutputWriter.displayException(e.getMessage());
         }
     }
 
     public void changeCurrentDirRelativePath(String relativePath) {
-        if (relativePath.equals("..")) {
-            // go one directory up
-            try {
+
+        try {
+            if (relativePath.equals("")) {
+                // go one directory up
+                try {
+                    String currentPath = SessionData.currentPath;
+                    int indexOfLastSlash = currentPath.lastIndexOf("\\");
+                    String newPath = currentPath.substring(0, indexOfLastSlash);
+                    SessionData.currentPath = newPath;
+                } catch (StringIndexOutOfBoundsException sioobe) {
+                    throw new InvalidPathException();
+                }
+            } else {
+                // go to a given directory
                 String currentPath = SessionData.currentPath;
-                int indexOfLastSlash = currentPath.lastIndexOf("\\");
-                String newPath = currentPath.substring(0, indexOfLastSlash);
-                SessionData.currentPath = newPath;
-            } catch (StringIndexOutOfBoundsException sioobe) {
-                OutputWriter.displayException(ExceptionMessages.INVALID_DESTINATION);
+                currentPath += "\\" + relativePath;
+                this.changeCurrentDirAbsolute(currentPath);
             }
-        } else {
-            // go to a given directory
-            String currentPath = SessionData.currentPath;
-            currentPath += "\\" + relativePath;
-            this.changeCurrentDirAbsolute(currentPath);
+        } catch (InvalidPathException e) {
+            OutputWriter.displayException(e.getMessage());
         }
+
     }
 
     public void changeCurrentDirAbsolute(String absolutePath) {
-        File file = new File(absolutePath);
-        if (!file.exists()) {
-            OutputWriter.displayException(ExceptionMessages.INVALID_PATH);
-            return;
+
+        try {
+            File file = new File(absolutePath);
+
+            if (!file.exists()) {
+                throw new InvalidPathException();
+            }
+
+            SessionData.currentPath = absolutePath;
+
+        } catch (InvalidPathException e) {
+            OutputWriter.displayException(e.getMessage());
         }
 
-        SessionData.currentPath = absolutePath;
     }
 }

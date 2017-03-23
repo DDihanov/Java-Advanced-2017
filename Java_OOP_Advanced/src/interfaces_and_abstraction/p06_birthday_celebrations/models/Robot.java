@@ -1,4 +1,4 @@
-package interfaces_and_abstraction.p05_border_control.models;
+package interfaces_and_abstraction.p06_birthday_celebrations.models;
 
 public class Robot extends BaseCitizen {
 

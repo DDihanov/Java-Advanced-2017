@@ -1,6 +1,6 @@
-package interfaces_and_abstraction.p05_border_control;
+package interfaces_and_abstraction.p07_food_shortage;
 
-import interfaces_and_abstraction.p05_border_control.interfaces.CitizenInterface;
+import interfaces_and_abstraction.p07_food_shortage.interfaces.Buyer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,28 +12,28 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
 
-        List<CitizenInterface> citizens = new ArrayList<>();
+        List<Buyer> citizens = new ArrayList<>();
         Factory factory = new Factory();
 
         String input = "";
+        int count = Integer.parseInt(sc.readLine());
 
-        while (!"End".equals(input = sc.readLine())) {
-            String[] info = input.split("\\s+");
+        for (int i = 0; i < count; i++) {
+            String[] info = sc.readLine().split("\\s+");
             citizens.add(factory.createCitizen(info));
         }
 
-        input = sc.readLine();
-
-        checkIds(citizens, input);
-    }
-
-    private static void checkIds(List<CitizenInterface> citizens, String input) {
-        for (CitizenInterface citizen :
-                citizens) {
-            String id = citizen.getId();
-            if(id.endsWith(input)) {
-                System.out.println(id);
+        while(!"End".equals(input = sc.readLine())){
+            for (Buyer citizen :
+                    citizens) {
+                if(citizen.getName().equals(input)){
+                    citizen.buyFood();
+                }
             }
         }
+
+        int totalFood = citizens.stream().mapToInt(c->c.getFood()).sum();
+        System.out.println(totalFood);
     }
+
 }

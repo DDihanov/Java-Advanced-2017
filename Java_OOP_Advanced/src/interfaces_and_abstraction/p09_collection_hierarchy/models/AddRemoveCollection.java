@@ -1,7 +1,8 @@
-package collectionhierarchy.models;
+package interfaces_and_abstraction.p09_collection_hierarchy.models;
 
-import collectionhierarchy.interfaces.IAdd;
-import collectionhierarchy.interfaces.IRemove;
+
+import interfaces_and_abstraction.p09_collection_hierarchy.interfaces.IAdd;
+import interfaces_and_abstraction.p09_collection_hierarchy.interfaces.IRemove;
 
 import java.util.LinkedList;
 

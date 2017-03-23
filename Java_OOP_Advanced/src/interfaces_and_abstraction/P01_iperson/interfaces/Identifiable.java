@@ -1,5 +1,5 @@
-package interfaces_and_abstraction.P01_IPerson;
+package interfaces_and_abstraction.P01_iperson.interfaces;
 
 public interface Identifiable {
-    int getId();
+    String getId();
 }

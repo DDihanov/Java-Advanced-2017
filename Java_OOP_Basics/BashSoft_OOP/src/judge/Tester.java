@@ -1,5 +1,6 @@
 package judge;
 
+import exceptions.InvalidPathException;
 import io.OutputWriter;
 import staticData.ExceptionMessages;
 
@@ -13,24 +14,29 @@ public class Tester {
 
     public void compareContent(String actualOutput, String expectedOutput) {
         try {
+            try {
 
-            OutputWriter.writeMessageOnNewLine("Reading files...");
-            String mismatchPath = getMismatchPath(expectedOutput);
+                OutputWriter.writeMessageOnNewLine("Reading files...");
+                String mismatchPath = getMismatchPath(expectedOutput);
 
-            List<String> actualOutputString = readTextFile(actualOutput);
-            List<String> expectedOutputString = readTextFile(expectedOutput);
+                List<String> actualOutputString = readTextFile(actualOutput);
+                List<String> expectedOutputString = readTextFile(expectedOutput);
 
-            boolean mismatch = compareStrings(actualOutputString, expectedOutputString, mismatchPath);
+                boolean mismatch = compareStrings(actualOutputString, expectedOutputString, mismatchPath);
 
-            if (mismatch) {
-                List<String> mismatchString = readTextFile(mismatchPath);
-                mismatchString.forEach(OutputWriter::writeMessageOnNewLine);
-            } else {
-                OutputWriter.writeMessageOnNewLine("Files are identical. There are no mismatches.");
+                if (mismatch) {
+                    List<String> mismatchString = readTextFile(mismatchPath);
+                    mismatchString.forEach(OutputWriter::writeMessageOnNewLine);
+                } else {
+                    OutputWriter.writeMessageOnNewLine("Files are identical. There are no mismatches.");
+                }
+            } catch (IOException ioe) {
+                throw new InvalidPathException();
             }
-        } catch (IOException ioe) {
-            OutputWriter.displayException(ExceptionMessages.INVALID_PATH);
+        } catch (InvalidPathException e) {
+            OutputWriter.displayException(e.getMessage());
         }
+
     }
 
     private List<String> readTextFile(String filePath) throws IOException {

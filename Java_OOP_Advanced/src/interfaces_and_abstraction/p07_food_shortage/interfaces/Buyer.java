@@ -1,5 +1,7 @@
-package interfaces_and_abstraction.p05_border_control.interfaces;
+package interfaces_and_abstraction.p07_food_shortage.interfaces;
 
-public interface CitizenInterface {
-    String getId();
+public interface Buyer {
+    void buyFood();
+    int getFood();
+    String getName();
 }

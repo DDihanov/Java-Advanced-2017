@@ -1,5 +1,8 @@
 package models;
 
+import exceptions.DuplicateEntryInStructureException;
+import exceptions.InvalidStringException;
+import exceptions.KeyNotFoundException;
 import io.OutputWriter;
 import staticData.ExceptionMessages;
 
@@ -7,40 +10,61 @@ import java.util.Arrays;
 import java.util.LinkedHashMap;
 
 public class Student {
-    public String userName;
-    public LinkedHashMap<String, Course> enrolledCourses;
+    private String userName;
+    private LinkedHashMap<String, Course> enrolledCourses;
     public LinkedHashMap<String, Double> marksByCourseName;
 
     public Student(String userName) {
-        this.userName = userName;
+        this.setUserName(userName);
         this.enrolledCourses = new LinkedHashMap<>();
         this.marksByCourseName = new LinkedHashMap<>();
     }
 
-    public void enrollInCourse(Course course) {
-        if (this.enrolledCourses.containsKey(course.name)) {
-            OutputWriter.displayException(String.format(
-                    ExceptionMessages.STUDENT_ALREADY_ENROLLED_IN_GIVEN_COURSE,
-                    this.userName, course.name));
-            return;
-        }
+    public String getUserName() {
+        return this.userName;
+    }
 
-        this.enrolledCourses.put(course.name, course);
+    public void enrollInCourse(Course course) {
+
+        try {
+            if (this.enrolledCourses.containsKey(course.getName())) {
+                throw new DuplicateEntryInStructureException(this.userName, course.getName());
+            }
+
+            this.enrolledCourses.put(course.getName(), course);
+        } catch (DuplicateEntryInStructureException e) {
+            OutputWriter.displayException(e.getMessage());
+        }
     }
 
     public void setMarkOnCourse(String courseName, int... scores) {
-        if (! this.enrolledCourses.containsKey(courseName)) {
-            OutputWriter.displayException(ExceptionMessages.NOT_ENROLLED_IN_COURSE);
-            return;
+
+        try {
+            if (! this.enrolledCourses.containsKey(courseName)) {
+                throw new KeyNotFoundException();
+            }
+
+            if (scores.length > Course.NUMBER_OF_TASKS_ON_EXAM) {
+                OutputWriter.displayException(ExceptionMessages.INVALID_NUMBER_OF_SCORES);
+                return;
+            }
+
+            double mark = this.calculateMark(scores);
+            this.marksByCourseName.put(courseName, mark);
+
+        } catch (KeyNotFoundException e) {
+            OutputWriter.displayException(e.getMessage());
         }
 
-        if (scores.length > Course.NUMBER_OF_TASKS_ON_EXAM) {
-            OutputWriter.displayException(ExceptionMessages.INVALID_NUMBER_OF_SCORES);
-            return;
+    }
+
+    private void setUserName(String userName) {
+
+        if (userName == null || userName.trim().isEmpty()) {
+            throw new InvalidStringException();
         }
 
-        double mark = this.calculateMark(scores);
-        this.marksByCourseName.put(courseName, mark);
+        this.userName = userName;
     }
 
     private double calculateMark(int[] scores) {

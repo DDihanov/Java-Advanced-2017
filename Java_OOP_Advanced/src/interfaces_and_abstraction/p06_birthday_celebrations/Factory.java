@@ -1,22 +1,20 @@
-package interfaces_and_abstraction.p05_border_control;
+package interfaces_and_abstraction.p06_birthday_celebrations;
 
-import interfaces_and_abstraction.p05_border_control.interfaces.CitizenInterface;
-import interfaces_and_abstraction.p05_border_control.models.Citizen;
-import interfaces_and_abstraction.p05_border_control.models.Robot;
+
+import interfaces_and_abstraction.p06_birthday_celebrations.interfaces.Birthdatable;
+import interfaces_and_abstraction.p06_birthday_celebrations.models.Citizen;
+import interfaces_and_abstraction.p06_birthday_celebrations.models.Pet;
 
 public class Factory {
 
-    public CitizenInterface createCitizen(String... info){
-        if(info.length == 2){
-            CitizenInterface robot = new Robot(info[1], info[0]);
-
-            return robot;
-        }else if(info.length == 3){
-            CitizenInterface citizen = new Citizen(info[2], info[0], Integer.parseInt(info[1]));
-
-            return citizen;
+    public Birthdatable createUnit(String... info){
+        switch(info[0]){
+            case"Citizen":
+                return new Citizen(info[3], info[1], Integer.parseInt(info[2]), info[4]);
+            case"Pet":
+                return new Pet(info[1], info[2]);
+            default:
+                return null;
         }
-
-        return null;
     }
 }

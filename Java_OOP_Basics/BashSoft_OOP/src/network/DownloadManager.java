@@ -1,9 +1,8 @@
 package network;
 
+import exceptions.InvalidPathException;
 import io.OutputWriter;
-import staticData.ExceptionMessages;
 import staticData.SessionData;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -69,7 +68,7 @@ public class DownloadManager {
     private String extractNameOfFile(String fileUrl) throws MalformedURLException {
         int indexOfLastSlash = fileUrl.lastIndexOf('/');
         if (indexOfLastSlash == -1) {
-            throw new MalformedURLException(ExceptionMessages.INVALID_PATH);
+            throw new InvalidPathException();
         }
 
         return fileUrl.substring(indexOfLastSlash + 1);

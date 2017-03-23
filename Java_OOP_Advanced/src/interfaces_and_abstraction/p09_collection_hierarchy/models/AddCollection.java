@@ -1,6 +1,7 @@
-package collectionhierarchy.models;
+package interfaces_and_abstraction.p09_collection_hierarchy.models;
 
-import collectionhierarchy.interfaces.IAdd;
+
+import interfaces_and_abstraction.p09_collection_hierarchy.interfaces.IAdd;
 
 import java.util.ArrayList;
 import java.util.List;

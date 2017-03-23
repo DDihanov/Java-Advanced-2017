@@ -1,4 +1,6 @@
-package interfaces_and_abstraction.p08_military_elite.models;
+package interfaces_and_abstraction.p08_military_elite.interfaces;
 
-public class IRepair {
+public interface IRepair {
+    int getHoursWorked();
+    String getPartName();
 }
