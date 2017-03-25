@@ -2,230 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801562f3-21e2-4fc8-9efa-9add43e904c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p01_p02_generic_box/Box.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p01_p02_generic_box/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p03_p04_generic_swap_method/Box.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p03_p04_generic_swap_method/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p05_p06_generic_count_method_strings/Box.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p05_p06_generic_count_method_strings/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/CommandInterpreter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/interfaces/ICustomList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/models/ICustomListImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/models/Sorter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p10_tuple/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p10_tuple/interfaces/Tuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p10_tuple/models/TupleImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p11_threeuple/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p11_threeuple/interfaces/Tuple.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/exercises/p11_threeuple/models/TupleImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/lab/p02_array_creator/ArrayCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/lab/p02_array_creator/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/lab/p06_generic_flat_method/ListUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/generics/lab/p06_generic_flat_method/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/GameObjectFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/interfaces/IGameObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Archangel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Demon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/io/IOManager.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/io/IOManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/judge/Tester.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/judge/Tester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/models/Course.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/models/Course.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/models/Student.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/models/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/network/DownloadManager.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/network/DownloadManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/repository/StudentsRepository.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/repository/StudentsRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/staticData/ExceptionMessages.class" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/out/production/BashSoft_OOP/staticData/ExceptionMessages.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/Arrays.iml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/Arrays.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/CollectCoins.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/CollectCoins.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/DiagonalDiff.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/DiagonalDiff.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/FillMatrix.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/FillMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/GroupNumbers.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/GroupNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MatrixOfPals.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MatrixOfPals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MatrixShuffling.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MatrixShuffling.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MaxSubmatrixSum.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MaxSubmatrixSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MaximalSum.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/MaximalSum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/PascalTriangle.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/PascalTriangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/ReadSortPrintArray.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/ReadSortPrintArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/SeqInMatrix.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/SeqInMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/SquaresInMatrix.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/SquaresInMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/SumMatrixElements.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/SumMatrixElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/TerroristsWin.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Arrays/src/TerroristsWin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Bash Soft/data.txt" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Bash Soft/data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Bash Soft/src/Main.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Bash Soft/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/ArraySlider.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/ArraySlider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/BunkerBuster.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/BunkerBuster.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/P03_TextTransformer.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/P03_TextTransformer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/RageQuit.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/ExamPrepOne/src/RageQuit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/src/NatureProphet.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/src/NatureProphet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/src/SecondNature.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Java Advanced Retake Exam - 22 August 2016/src/SecondNature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/project-template.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/project-template.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/JavaExam2017FEbb.iml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/JavaExam2017FEbb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P1Shockwave.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P1Shockwave.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P2Earthquake.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P2Earthquake.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P2Earthquake_withArrayList.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P2Earthquake_withArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P3Ascent.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P3Ascent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P4Highscore.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/JavaExam2017FEbb/src/P4Highscore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/project-template.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/project-template.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/Regex.iml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/Regex.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/ATagIncomplete.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/ATagIncomplete.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/MatchPhoneNumber.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/MatchPhoneNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/PhoneNumbers.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/PhoneNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/QueryMess.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Regex/src/QueryMess.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/SetsAndMaps.iml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/SetsAndMaps.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/AMinersTask.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/AMinersTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/Bunnies.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/Bunnies.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/CountSymbols.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/CountSymbols.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/Fillmatri.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/Fillmatri.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/FixEmails.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/FixEmails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/HandsOfCards.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/HandsOfCards.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/LegendaryFarming.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/LegendaryFarming.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/LegoBlocks.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/LegoBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/LogsAggregator.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/LogsAggregator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/ParkingSystem.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/ParkingSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/PeriodicTable.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/PeriodicTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/Phonebook.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/Phonebook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/PopulationCounter.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/PopulationCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/RubiksMatrix.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/RubiksMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/SetsOfElements.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/SetsOfElements.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/TargetPractice.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/TargetPractice.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/UniqueUserNames.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/UniqueUserNames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/UserLogs.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/SetsAndMaps/src/UserLogs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/StacksAndQueues.iml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/StacksAndQueues.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/BalancedParanthesis.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/BalancedParanthesis.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/BasicQueueOperations.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/BasicQueueOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/BasicStackOperations.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/BasicStackOperations.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/MaximumElement.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/MaximumElement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/PoisonousPlants.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/PoisonousPlants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/RecursiveFibonacci.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/RecursiveFibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/ReverseNumbers.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/ReverseNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/SequenceWithQueue.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/SequenceWithQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/SimpleTextEditor.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/SimpleTextEditor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/StackFibonacci.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/StackFibonacci.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/TruckTour.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StacksAndQueues/src/TruckTour.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_011LittleJohn.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_011LittleJohn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_02UPPERSTRING.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_02UPPERSTRING.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_04FIRSTNAME.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_04FIRSTNAME.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_05MinEvenNumber.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_05MinEvenNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_08MapDistricts.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/StreamAPI/src/_08MapDistricts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/project-template.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/project-template.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/Streams.iml" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/Streams.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/All_Capitals.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/All_Capitals.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/CopyPicture.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/CopyPicture.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/CountCharTypes.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/CountCharTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/Course.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/Course.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/CreateZipArchive.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/CreateZipArchive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/GetFolderSize.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/GetFolderSize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/LineNumbers.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/LineNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/MergeTwoFiles.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/MergeTwoFiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SerializeArrayList.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SerializeArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SerializeCustomObject.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SerializeCustomObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SumBytes.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SumBytes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SumLines.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/SumLines.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/WordCount.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/WordCount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/CopyBytes.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/CopyBytes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/Cube.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/Cube.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/DirectoryListing.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/DirectoryListing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/EveryThirdLine.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/EveryThirdLine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/ExtractIntegers.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/ExtractIntegers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/Listing.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/Listing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/PathListing.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/PathListing.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/ReadFile.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/ReadFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/SerializeDemo.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/SerializeDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/WriteToFile.java" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/lab/WriteToFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/input.txt" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/input1.txt" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/input1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/input2.txt" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/input2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/output.txt" afterPath="$PROJECT_DIR$/../Java_Fundamentals/Streams/src/resources/output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/interfaces/Birthable.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/interfaces/Birthable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/interfaces/Identifiable.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/interfaces/Identifiable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/interfaces/Person.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/interfaces/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/models/Citizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/P01_iperson/models/Citizen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/CommandInterpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/interfaces/ListyIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/models/ListyIteratorImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p03_stack_iterator/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p03_stack_iterator/interfaces/CustomStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p03_stack_iterator/models/CustomStackImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/models/Lake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/interfaces/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/models/PersonImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonAgeComp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonNameComp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/interfaces/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/models/PersonImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/interfaces/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/models/PersonImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/ClinicManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/Pet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/PetClinic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/ClinicManagerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/CommandInterpreter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/EngineImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetClinicImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Java_OOP_Advanced/interfaces_and_abstraction/p10_mood_3.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_OOP_Advanced/interfaces_and_abstraction/p03_ferrari/Main.class" afterPath="$PROJECT_DIR$/out/production/Java_OOP_Advanced/interfaces_and_abstraction/p03_ferrari/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Java_OOP_Advanced/interfaces_and_abstraction/p10_mood_3/models/GameObject.class" afterPath="$PROJECT_DIR$/out/production/Java_OOP_Advanced/interfaces_and_abstraction/p10_mood_3/models/GameObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p03_ferrari/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p03_ferrari/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p03_ferrari/interfaces/Car.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p03_ferrari/interfaces/Car.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p03_ferrari/models/Ferrari.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p03_ferrari/models/Ferrari.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/interfaces/Browsable.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/interfaces/Browsable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/interfaces/Callable.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/interfaces/Callable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/models/Smartphone.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p04_telephony/models/Smartphone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/Factory.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/interfaces/CitizenInterface.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/interfaces/CitizenInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/models/BaseCitizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/models/BaseCitizen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/models/Citizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/models/Citizen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/models/Robot.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p05_border_control/models/Robot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/Factory.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/interfaces/Birthdatable.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/interfaces/Birthdatable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/interfaces/Identifiable.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/interfaces/Identifiable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/BaseCitizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/BaseCitizen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/Citizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/Citizen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/Pet.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/Pet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/Robot.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p06_birthday_celebrations/models/Robot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/Factory.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/interfaces/Buyer.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/interfaces/Buyer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/BaseCitizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/BaseCitizen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/BuyerImpl.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/BuyerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/Citizen.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/Citizen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/Rebel.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p07_food_shortage/models/Rebel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/Factory.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ICommando.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ICommando.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IEngineer.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IEngineer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ILeutenantGeneral.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ILeutenantGeneral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IMission.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IMission.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IPrivate.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IPrivate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IRepair.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/IRepair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISoldier.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISoldier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISpecialisedSoldier.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISpecialisedSoldier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISpy.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISpy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Commando.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Commando.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Engineer.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Engineer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/LeutenantGeneral.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/LeutenantGeneral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Mission.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Mission.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Private.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Private.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Repair.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Repair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Soldier.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Soldier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/SpecialisedSoldier.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/SpecialisedSoldier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Spy.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Spy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/Main.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IAdd.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IAdd.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IRemove.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IRemove.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IUsed.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IUsed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/AddCollection.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/AddCollection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/AddRemoveCollection.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/AddRemoveCollection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/MyList.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/MyList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/GameObject.java" afterPath="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/GameObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/io/CommandInterpreter.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/io/CommandInterpreter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/io/IOManager.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/io/IOManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/judge/Tester.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/judge/Tester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/models/Course.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/models/Course.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/models/Student.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/models/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/network/DownloadManager.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/network/DownloadManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/repository/RepositoryFilter.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/repository/RepositoryFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/repository/StudentsRepository.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/repository/StudentsRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/staticData/ExceptionMessages.java" afterPath="$PROJECT_DIR$/../Java_OOP_Basics/BashSoft_OOP/src/staticData/ExceptionMessages.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -235,37 +46,84 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Java_OOP_Advanced$Main__1_.coverage" NAME="Main (1) Coverage Results" MODIFIED="1490363957034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>iterators_and_comparators.p04_froggy.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameObject.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/GameObject.java">
+      <file leaf-file-name="PetClinicImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetClinicImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="97" column="32" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#2847#2848#0" expanded="true" />
+                <element signature="e#2900#2901#0" expanded="true" />
+                <element signature="e#2962#2963#0" expanded="true" />
+                <element signature="e#3030#3031#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PetClinic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/PetClinic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Archangel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Archangel.java">
+      <file leaf-file-name="ClinicManagerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/ClinicManagerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="88" lean-forward="false" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+            <state relative-caret-position="329">
+              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+                <element signature="e#1500#1501#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#1696#1697#0" expanded="true" />
+                <element signature="e#1765#1766#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandInterpreter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/CommandInterpreter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/Main.java">
+      <file leaf-file-name="EngineImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/EngineImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -273,12 +131,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demon.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Demon.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -298,6 +158,14 @@
       <find>get</find>
       <find>hasNext</find>
       <find>hashed</find>
+      <find>END</find>
+      <find>new</find>
+      <find>hasEmp</find>
+      <find>Exception</find>
+      <find>release</find>
+      <find>put</find>
+      <find>print</find>
+      <find>Exce</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -311,46 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Repair.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Mission.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/interfaces/ISpy.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/models/Spy.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p08_military_elite/Factory.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/interfaces/IAdd.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/AddCollection.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/AddRemoveCollection.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/models/MyList.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p09_collection_hierarchy/Main.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/SpecialPoints.java" />
-        <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Mana.java" />
-        <option value="$PROJECT_DIR$/src/generics/lab/p02_array_creator/ArrayCreator.java" />
-        <option value="$PROJECT_DIR$/src/generics/lab/p02_array_creator/Main.java" />
-        <option value="$PROJECT_DIR$/src/p06_generic_flat_method/ListUtils.java" />
-        <option value="$PROJECT_DIR$/src/p06_generic_flat_method/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/lab/p06_generic_flat_method/ListUtils.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/lab/p06_generic_flat_method/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p01_generic_box/Box.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p01_generic_box/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p01_p02_generic_box/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/p01_p02_generic_box/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p03_p04_generic_swap_method/Box.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p01_p02_generic_box/Box.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p03_p04_generic_swap_method/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p05_p06_generic_count_method_strings/Box.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p05_p06_generic_count_method_strings/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_custom_list/interfaces/ICustomList.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_custom_list/models/ICustomListImpl.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_custom_list/CommandInterpreter.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_custom_list/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_p08_custom_list/Main.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_p08_custom_list/models/Sorter.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_p08_custom_list/CommandInterpreter.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_p08_custom_list/interfaces/ICustomList.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_p08_custom_list/models/ICustomListImpl.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/models/ICustomListImpl.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p10_tuple/interfaces/ITuple.java" />
-        <option value="$PROJECT_DIR$/src/generics/exercises/p10_tuple/interfaces/Tuple.java" />
         <option value="$PROJECT_DIR$/src/generics/exercises/p10_tuple/models/TupleImpl.java" />
         <option value="$PROJECT_DIR$/src/generics/exercises/p10_tuple/Main.java" />
         <option value="$PROJECT_DIR$/src/generics/exercises/p11_threeuple/interfaces/Tuple.java" />
@@ -362,6 +190,46 @@
         <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Demon.java" />
         <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/Main.java" />
         <option value="$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_listyIterator/interfaces/ListyIterator.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_listyIterator/models/ListyIteratorImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_listyIterator/CommandInterpreter.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_listyIterator/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/interfaces/ListyIterator.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/models/ListyIteratorImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/CommandInterpreter.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_stack_iterator/interfaces/Stack.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_stack_iterator/models/CustomStack.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_stack_iterator/interfaces/CustomStack.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_stack_iterator/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_stack_iterator/models/CustomStackImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p03_stack_iterator/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/models/Lake.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/comparingоbjects/models/PersonImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/comparingоbjects/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p06_comparing_objects/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/interfaces/Person.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/models/PersonImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonAgeComp.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonNameComp.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/comparators/DuplicatePersonComp.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/models/PersonImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/Engine.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/Pet.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/ClinicCommandInterpreter.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/Engine.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/ClinicManager.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/PetClinic.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/EngineImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/Main.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/ClinicManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetClinicImpl.java" />
+        <option value="$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/CommandInterpreter.java" />
       </list>
     </option>
   </component>
@@ -396,6 +264,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -422,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces_and_abstraction" />
+              <option name="myItemId" value="iterators_and_comparators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,7 +326,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,29 +337,30 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\generics\exercises\p11_threeuple" />
-      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\generics\exercises\p05_p06_generic_count_method_strings" />
-      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\generics\exercises" />
-      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\interfaces_and_abstraction\p09_collection_hierarchy" />
-      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\interfaces_and_abstraction\P01_iperson" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="iterators_and_comparators.p01_listyIterator.models" />
       <recent name="generics.exercises.p10_tuple.models" />
       <recent name="generics.exercises.p07_custom_list.models" />
       <recent name="interfaces_and_abstraction.p08_military_elite.models" />
       <recent name="interfaces_and_abstraction.P01_IPerson" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\iterators_and_comparators\p07_equality_logic" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\iterators_and_comparators" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\generics\exercises\p11_threeuple" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\generics\exercises\p05_p06_generic_count_method_strings" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\generics\exercises" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="ListUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="iterators_and_comparators.p05_comparing_objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ListUtils" />
+      <option name="MAIN_CLASS_NAME" value="iterators_and_comparators.p05_comparing_objects.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -507,11 +376,11 @@
     <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="generics.exercises.p05_p06_generic_count_method_strings.*" />
+          <option name="PATTERN" value="iterators_and_comparators.p06_strategy_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="generics.exercises.p05_p06_generic_count_method_strings.Main" />
+      <option name="MAIN_CLASS_NAME" value="iterators_and_comparators.p06_strategy_pattern.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -527,11 +396,11 @@
     <configuration default="false" name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="generics.exercises.p10_tuple.*" />
+          <option name="PATTERN" value="iterators_and_comparators.p07_equality_logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="generics.exercises.p10_tuple.Main" />
+      <option name="MAIN_CLASS_NAME" value="iterators_and_comparators.p07_equality_logic.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -544,14 +413,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PetClinicImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="generics.exercises.p11_threeuple.*" />
+          <option name="PATTERN" value="iterators_and_comparators.p08_pet_clinics.models.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="generics.exercises.p11_threeuple.Main" />
+      <option name="MAIN_CLASS_NAME" value="iterators_and_comparators.p08_pet_clinics.models.PetClinicImpl" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -564,14 +433,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="interfaces_and_abstraction.p10_mood_3.*" />
+          <option name="PATTERN" value="iterators_and_comparators.p08_pet_clinics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="interfaces_and_abstraction.p10_mood_3.Main" />
+      <option name="MAIN_CLASS_NAME" value="iterators_and_comparators.p08_pet_clinics.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -965,23 +834,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ListUtils" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
       <item index="2" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PetClinicImpl" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (4)" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PetClinicImpl" />
         <item index="2" class="java.lang.String" itemvalue="Application.Main (3)" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -993,11 +866,14 @@
       <workItem from="1490085746801" duration="25671000" />
       <workItem from="1490206808180" duration="3695000" />
       <workItem from="1490263937140" duration="17065000" />
+      <workItem from="1490342830698" duration="24789000" />
+      <workItem from="1490380392473" duration="2886000" />
+      <workItem from="1490430676643" duration="6924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46431000" />
+    <option name="totallyTimeSpent" value="81030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
@@ -1006,23 +882,23 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055267" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32221064" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32221064" sideWeight="0.49786323" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25587606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2638889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4876923" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1032,6 +908,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5123077" order="4" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1092,8 +969,44 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/models/ListyIteratorImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterators_and_comparators/p01_p02_listyIterator/Main.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/models/Lake.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonNameComp.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetClinicImpl.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetClinicImpl.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1102,470 +1015,408 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/generics/lab/p02_array_creator/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p03_stack_iterator/interfaces/CustomStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Collections.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p03_stack_iterator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="5397" column="30" lean-forward="false" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/lab/p06_generic_flat_method/Main.java">
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/froggy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/froggy/models/Lake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/models/Lake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#294#295#0" expanded="false" />
+            <element signature="e#332#333#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/lab/p06_generic_flat_method/ListUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/genericBox/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/genericBox/GenericBox.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p04_froggy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#161#162#0" expanded="false" />
-            <element signature="e#214#215#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#297#298#0" expanded="false" />
-          </folding>
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/p01_p02_generic_box/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/models/PersonImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="-102">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p01_p02_generic_box/Main.java">
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/comparingоbjects/models/PersonImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p01_p02_generic_box/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/p01_p02_generic_box/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p03_p04_generic_swap_method/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#205#206#0" expanded="false" />
-            <element signature="e#291#292#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p03_p04_generic_swap_method/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="60" lean-forward="false" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/customlist/interfaces/Addable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p05_p06_generic_count_method_strings/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p05_p06_generic_count_method_strings/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding>
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/customlist/CommandDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/customlist/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/CommandInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/customlist/models/CustomListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="40" column="30" lean-forward="false" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/customlist/models/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/interfaces/ICustomList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/models/Sorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p07_p08_p09_custom_list/models/ICustomListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="101" column="40" lean-forward="false" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2011#2012#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2153#2154#0" expanded="true" />
-            <element signature="e#2200#2201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="374" column="14" lean-forward="false" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/tuple/Tuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/tuple/TupleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p10_tuple/models/TupleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p10_tuple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p10_tuple/interfaces/Tuple.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p05_comparing_objects/interfaces/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/tuple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p11_threeuple/interfaces/Tuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p11_threeuple/models/TupleImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/threeuple/Threeuple.java">
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/strategyPattern/interfaces/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/Generics/threeuple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generics/exercises/p11_threeuple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="e#329#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/Main.java">
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/strategyPattern/models/PersonImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/models/ArchangelImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/interfaces/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/strategyPattern/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/interfaces/GameObjFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/interfaces/Demon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/interfaces/Archangel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/interfaces/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/factory/GameObjFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/interfaces/IGameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/GameObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/models/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/InterfacesAndAbstraction/mood3/models/DemonImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Demon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="7116" column="22" lean-forward="false" selection-start-line="7116" selection-start-column="22" selection-end-line="7116" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/models/PersonImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/interfaces/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonAgeComp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p06_strategy_pattern/comparators/PersonNameComp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/comparators/DuplicatePersonComp.java" />
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/equalitylogic/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/equalitylogic/PersonComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/equalitylogic/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p07_equality_logic/models/PersonImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/interfaces/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/interfaces/Clinic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/interfaces/ClinicCommandDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/interfaces/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/interfaces/CommandDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/interfaces/ClinicDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="376" column="21" lean-forward="false" selection-start-line="376" selection-start-column="21" selection-end-line="376" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="271" column="6" lean-forward="false" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/ClinicManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/models/PetImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/ClinicCommandDispatcherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-917">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/EngineImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/models/ClinicDatabaseImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SoftuniHomeworks-master/JavaOOP_Advanced/IteratorsAndComparators/petclinics/models/ClinicImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/Archangel.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/EngineImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="88" lean-forward="false" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+        <state relative-caret-position="323">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/interfaces/PetClinic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces_and_abstraction/p10_mood_3/models/GameObject.java">
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/PetClinicImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="189">
+          <caret line="97" column="32" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2900#2901#0" expanded="true" />
+            <element signature="e#2962#2963#0" expanded="true" />
+            <element signature="e#3030#3031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/ClinicManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1500#1501#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1696#1697#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterators_and_comparators/p08_pet_clinics/models/CommandInterpreter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
           <folding />
         </state>
       </provider>

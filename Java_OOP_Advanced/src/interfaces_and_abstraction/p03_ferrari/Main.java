@@ -21,7 +21,7 @@ public class Main {
         String carInterface = Car.class.getSimpleName();
         boolean isCreated = Car.class.isInterface();
         if (!isCreated) {
-            throw new IllegalClassFormatException("No interface created!");
+            throw new IllegalClassFormatException("No interfaces created!");
         }
 
     }
