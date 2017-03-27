@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PetClinicImpl implements PetClinic {
-    private static int STARTING_ROOM;
+    private int startingRoom;
     private Map<Integer, Pet> rooms;
     private String name;
 
@@ -18,7 +18,7 @@ public class PetClinicImpl implements PetClinic {
         for (int i = 0; i < count; i++) {
             this.rooms.put(i, null);
         }
-        this.STARTING_ROOM = (this.rooms.size() - 1) / 2;
+        this.startingRoom = (this.rooms.size() - 1) / 2;
     }
 
     private void setName(String name) {
@@ -41,8 +41,8 @@ public class PetClinicImpl implements PetClinic {
     public boolean addPet(Pet pet) {
         boolean canGoRight = false;
         boolean canGoLeft = true;
-        int leftIndex = STARTING_ROOM;
-        int rightIndex = STARTING_ROOM;
+        int leftIndex = this.startingRoom;
+        int rightIndex = this.startingRoom;
 
         if(!this.hasEmptyRooms()){
             return false;
@@ -74,14 +74,14 @@ public class PetClinicImpl implements PetClinic {
 
     @Override
     public boolean releasePet() {
-        for (int i = STARTING_ROOM; i < this.rooms.size(); i++) {
+        for (int i = this.startingRoom; i < this.rooms.size(); i++) {
             if (!(this.rooms.get(i) == null)) {
                 this.rooms.put(i, null);
                 return true;
             }
         }
 
-        for (int i = 0; i < STARTING_ROOM; i++) {
+        for (int i = 0; i < this.startingRoom; i++) {
             if (!(this.rooms.get(i) == null)) {
                 this.rooms.put(i, null);
                 return true;
@@ -109,6 +109,10 @@ public class PetClinicImpl implements PetClinic {
 
     @Override
     public void getSingleRoomInfo(int index) {
+        if(this.rooms.get(index) == null){
+            System.out.println("Room empty");
+            return;
+        }
         System.out.println(this.rooms.get(index).toString());
     }
 
