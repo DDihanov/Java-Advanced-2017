@@ -1,0 +1,54 @@
+annotations
+	@Disposable
+	@Recyclable
+	@Burnable
+	@Storable
+	@Inject
+contracts
+	interface GarbageDisposalStrategy
+	interface GarbageProcessor
+	interface ProcessingData
+	interface StrategyHolder
+	interface Waste
+models
+	strategies
+		DefaultStrategyHolder implements StrategyHolder
+		RecyclableStrategy implements GarbageDisposalStrategy
+		BurnableStrategy implements GarbageDisposalStrategy
+		StorableStrategy implements GarbageDisposalStrategy
+	waste
+		abstract class AbstractWaste implements Waste
+		@Recyclable
+		RecyclableWaste extends AbstractWaste
+		@Burnable
+		BurnableWaste extends AbstractWaste
+		@Storable
+		StorableWaste extends AbstractWaste
+	processingData
+		ProcessingDataImpl implements ProcessingData
+	data
+		interface RecyclingStation
+		RecyclingStationImpl implements RecyclingStation
+commands
+	interface Executable
+	ProcessGarbageCommand implements Executable(@Inject wasteFactory, @Inject recyclingStation)
+	StatusCommand extends Executable(@Inject recyclingStation)
+factory
+	interface WasteFactory
+	WasteFactoryImpl implements WasteFactory
+core
+	interfaces
+		interface Runnable
+		interface CommandInvoker
+	Engine implements Runnable
+	GarbageProcessorImpl implements GarbageProcessor
+	CommandInvokerImpl implements CommandInvoker
+io
+	interfaces
+		Reader
+		Writer
+	ReaderImpl implements Reader
+	WriterImpl implements Writer
+
+
+	
