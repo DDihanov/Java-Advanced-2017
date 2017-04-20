@@ -45,5 +45,10 @@ go in the whole refleciton logic, and then String result = executable.execute();
  -> String result = commandDispatcher.dispatch(... params) --> which calls the above method and returns the String directly.
 
 The .execute method must somehow with with the models of the application.
+
+Commands are needed in order to use them with reflection
+
+use reflection to make objects in factory and to make commands!!!!
 ////////////
+
 
