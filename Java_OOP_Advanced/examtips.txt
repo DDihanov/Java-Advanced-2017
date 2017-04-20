@@ -1,1 +1,49 @@
 right side always interface!(ex: Printable doc = new Document();)
+refactor code from concrete impl to interface
+repeatable logic in abstract classes;
+add getters/setters only if needed - YAGNI principle -  "Always implement things when you actually need them, never when you just foresee that you need them."
+keep it simple silly ! - "do the simplest thing that could possibly work" (DTSTTCPW)
+KISS
+Tell dont ask principle
+dependency inversion/dependency injection -> always use interface in classes as fields or as parameters in methods, and then initialize them with concrete impl.
+
+IoC means that application does not instantiate objects itself, but rather gets the objects from an outside service. This can be done with a framework, in which
+you call the thing you need from the framework, or using dependency injection - I.E. instantiating the object in the Main method:
+Iterable iterable = new ArrayList();
+and then passing it in the constructor of an object that needs it(in this case the object accepts an Iterable in its constructor):
+Writer writer = new ConsoleWriter(iterable);
+all public methods to interfaces and also interfaces for everything!!!
+generic array: this.field = (T[]) new Object[SIZE]; 
+               T[] array = (T[]) new Object[][SIZE];
+!!!right click class -> extract -> interface!!!
+rename refactor - Shift + F6
+
+
+////////////
+exam pattern -> you have a commands folder holding the main logic of the app seperately in classes. Engine class reads the input -> passes the line to the Factory 
+-> the factory finds the Command class from the commands package via reflection using the input string, and then makes new instance of the ctor using reflection, and then 
+using the @Inject annotation it sets the fields of the instance of this constructor and then returns a String from the .execute method of the ctor:
+example :
+@Override
+    @SuppressWarnings("unchecked")
+    public String dispatch(String command, String[] args) throws ReflectiveOperationException {
+        String result;
+
+        Class<Executable> commandClass = (Class<Executable>)
+                Class.forName(COMMANDS_PACKAGE + command + COMMAND_SUFFIX);
+        Executable commandToExecute = commandClass
+                .getDeclaredConstructor()
+                .newInstance();
+        this.resolveDependencies(commandToExecute, commandClass); //--> injects
+
+        result = commandToExecute.execute(args);
+        return result;
+    }
+
+You can either make an Executable object in Engine class, where you do something like Executable executable = this.factory/interpreter.interpretCommand(line) and then
+go in the whole refleciton logic, and then String result = executable.execute(); or you can directly return a String in the command dispatcher in the Engine loop
+ -> String result = commandDispatcher.dispatch(... params) --> which calls the above method and returns the String directly.
+
+The .execute method must somehow with with the models of the application.
+////////////
+

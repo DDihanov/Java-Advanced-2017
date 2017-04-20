@@ -8,9 +8,12 @@ import reflection.p03_04_05_barracks.core.Engine;
 import reflection.p03_04_05_barracks.core.factories.UnitFactoryImpl;
 import reflection.p03_04_05_barracks.data.UnitRepository;
 
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException, IOException, InvocationTargetException {
         Repository repository = new UnitRepository();
         UnitFactory unitFactory = new UnitFactoryImpl();
         Injector dependencyInjector = new DependencyInjector();

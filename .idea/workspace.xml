@@ -1,7 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1494b381-9d6a-4b30-8b80-6a1ed0c37fa2" name="Default" comment="" />
+    <list default="true" id="1494b381-9d6a-4b30-8b80-6a1ed0c37fa2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/boat_racing_simulator.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/Core/CommandHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/Core/Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/Utility/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/Utility/Validator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/contracts/IBoatSimulatorController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/contracts/ICommandHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/contracts/IModelable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/contracts/IRace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/contracts/IRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/controllers/BoatSimulatorController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/database/BoatSimulatorDatabase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/database/Repository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/enumeration/EngineType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/exeptions/DuplicateModelException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/exeptions/InsufficientContestantsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/exeptions/NoSetRaceException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/exeptions/NonExistantModelException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/exeptions/RaceAlreadyExistsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/boat_racing_simulator_incomplete/src/models/Race.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/core/ControllerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/core/Engine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/core/interfaces/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/core/interfaces/Runnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/enums/ReportLevel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/factories/AppenderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/factories/AppenderFactoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/io/console/ReaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/io/console/WriterImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/io/interfaces/Reader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/io/interfaces/Writer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/appenders/Appender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/appenders/AppenderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/appenders/ConsoleAppender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/appenders/FileAppender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/file/File.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/file/LogFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/layouts/Layout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/layouts/SimpleLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/layouts/XmlLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/loggers/Logger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/loggers/LoggerImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/SOLID_principles/p01_logger/models/loggers/MessageLogger.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/core/Command.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/core/Engine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/core/WizardDataImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/core/interfaces/Executable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/core/interfaces/Runnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/core/interfaces/WizardData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/enums/SpellType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/factories/SpellFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/factories/SpellFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/factories/WizardFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/io/ConsoleReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/io/ConsoleWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/io/interfaces/Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/io/interfaces/Writer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/WizardImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/interfaces/Identifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/interfaces/Listener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/interfaces/Namable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/interfaces/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/interfaces/Spell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/interfaces/Wizard.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/spells/AbstractSpell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/spells/Fireball.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/mirrorimage/models/spells/Reflection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p01_harvestingFields.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p02_privateClassFiddling.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p03_04_05_barracks.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/annotations/Inject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/annotations/Monitored.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/core/Engine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/core/ExecutorImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/core/RepositoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/core/interfaces/Executor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/core/interfaces/Repository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/core/interfaces/Runnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/factories/EntityFactoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/factories/ObserverFactoryImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/factories/interfaces/EntityFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/factories/interfaces/ObserverFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/io/ConsoleReader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/io/ConsoleWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/io/interfaces/Reader.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/io/interfaces/Writer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/ChangeEventImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/Company.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/Employee.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/EntityImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/Institution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/interfaces/ChangeEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/interfaces/Entity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/interfaces/Identifiable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/interfaces/Nameable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/interfaces/Observable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p06_1984/models/interfaces/Observer.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p03_04_05_barracks/Main.class" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p03_04_05_barracks/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p03_04_05_barracks/contracts/Runnable.class" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/out/production/Java_OOP_Advanced/reflection/p03_04_05_barracks/contracts/Runnable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/examtips.txt" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/examtips.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/src/reflection/p03_04_05_barracks/Main.java" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/reflection/p03_04_05_barracks/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java_OOP_Advanced/src/reflection/p03_04_05_barracks/contracts/Runnable.java" afterPath="$PROJECT_DIR$/Java_OOP_Advanced/src/reflection/p03_04_05_barracks/contracts/Runnable.java" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +146,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -48,9 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -63,23 +178,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java-Advanced-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java-Advanced-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_OOP_Advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java-Advanced-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java-Advanced-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Java_OOP_Advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java_OOP_Basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src\SOLID_principles" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced\src" />
+      <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Advanced" />
       <recent name="D:\GitHub\Java-Advanced-2017\Java_OOP_Basics" />
       <recent name="D:\GitHub\Java-Advanced-2017\Java_Fundamentals" />
-      <recent name="D:\GitHub\Java-Advanced-2017\Bash Soft" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -364,6 +526,13 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -475,15 +644,16 @@
       <updated>1488530499669</updated>
       <workItem from="1488530512587" duration="108000" />
       <workItem from="1488634934372" duration="234000" />
+      <workItem from="1492692288941" duration="30000" />
+      <workItem from="1492692373010" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342000" />
+    <option name="totallyTimeSpent" value="434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -499,7 +669,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25801283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
